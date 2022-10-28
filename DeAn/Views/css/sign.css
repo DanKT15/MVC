@@ -1,0 +1,76 @@
+
+.sign-fom {
+    position: relative;
+    margin: 0 auto;
+    left: auto;
+    top:10%;
+    height: 525px;
+    width: 40%;
+    background-color: #edfaed;
+    border-radius: 20px;
+}
+.sign-fom::before {
+    content: '';
+    position: absolute;
+    background: #005500da;
+    border-radius: 20px;
+    inset: 0 ;
+    transform: rotate(10deg);
+    z-index: -1;
+}
+.sign {
+    z-index: 3;
+    background-color:#1414148f;
+    height: 882px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+}
+.sign h1{
+    margin-top: 0px;
+    font-size: 80px;
+    border-left:3px solid #123102;
+    color:#105626 ;
+}
+.sign-items {
+    display: flex;
+    margin-bottom: 4%;
+    justify-content: center;
+}
+.sign-items label i {
+    border: 1px solid rgb(133, 133, 133);
+    background-color: #062a06fc;
+    color: #e0dfdf;
+    border-right: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius:10px ;
+    height: 40px;
+    width: 45px;
+    display: block;
+    font-size: 28px;
+    padding-top: 10px;
+    margin-left: 9px;
+}
+input#sign {
+    display: none;
+}
+.submit-sign label {
+    display: block;
+    background-color: #062a06fc;
+    width: 75%;
+    height: 40px;
+    margin: auto;
+    border-radius: 20px;
+    padding-top: 9px;
+}
+.submit-sign label i {
+    font-size: 30px;
+    color: #f3dfca;
+}
+.submit-sign:hover label i {
+    color:#ffffff;
+}
+.submit-sign:hover label {
+    background: #808080;
+}
