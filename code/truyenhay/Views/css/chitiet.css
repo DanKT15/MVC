@@ -1,0 +1,69 @@
+body{
+    background-color: #efefef;
+}
+.detail{
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    
+}
+.header a:hover{
+    color: rgb(85, 1, 121);
+    border-bottom: 1px solid rgb(85, 1, 121);
+}
+.name p{
+    text-align: left;
+    font-family: Verdana;
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+.name a{
+    text-decoration: none;
+    color: #000;
+}
+.chapter button a{
+    color: aliceblue;
+}
+.chapter button{
+    background-color: #035a03;
+    border: none;
+    height: 40px;
+}
+.chapter button:hover{
+    background-color: rgb(4, 65, 18);
+    transition: ease-in 0.4s;
+    -moz-transition: ease-in 0.4s;
+    -webkit-transition: ease-in 0.4s;
+}
+.chapter button a:hover{
+    color: #ffff00;
+    transition: ease-in 0.4s;
+    -moz-transition: ease-in 0.4s;
+    -webkit-transition: ease-in 0.4s;
+}
+.footer_detail button{
+    border: none;
+    height: 30px;
+}
+.footer_detail button a{
+    color: aliceblue;
+}
+.footer_detail button:nth-child(1){
+    background-color: rgb(144, 108, 17);
+
+}
+.footer_detail button:nth-child(2){
+    background-color: rgb(7, 86, 181);
+
+}
+.footer_detail button:hover{
+    background-color: #808080;
+    color: #8b0000;
+}
+.footer_detail button a:hover{
+    color: #8b0000;
+}
+.icons i{
+    font-weight: 200;
+}

@@ -1,0 +1,14 @@
+D:\Cac Mon Hoc\Môn lập trình\c#\test\test\bin\Debug\netcoreapp3.1\test.exe
+D:\Cac Mon Hoc\Môn lập trình\c#\test\test\bin\Debug\netcoreapp3.1\test.deps.json
+D:\Cac Mon Hoc\Môn lập trình\c#\test\test\bin\Debug\netcoreapp3.1\test.runtimeconfig.json
+D:\Cac Mon Hoc\Môn lập trình\c#\test\test\bin\Debug\netcoreapp3.1\test.runtimeconfig.dev.json
+D:\Cac Mon Hoc\Môn lập trình\c#\test\test\bin\Debug\netcoreapp3.1\test.dll
+D:\Cac Mon Hoc\Môn lập trình\c#\test\test\bin\Debug\netcoreapp3.1\test.pdb
+D:\Cac Mon Hoc\Môn lập trình\c#\test\test\obj\Debug\netcoreapp3.1\test.csproj.AssemblyReference.cache
+D:\Cac Mon Hoc\Môn lập trình\c#\test\test\obj\Debug\netcoreapp3.1\test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cac Mon Hoc\Môn lập trình\c#\test\test\obj\Debug\netcoreapp3.1\test.AssemblyInfoInputs.cache
+D:\Cac Mon Hoc\Môn lập trình\c#\test\test\obj\Debug\netcoreapp3.1\test.AssemblyInfo.cs
+D:\Cac Mon Hoc\Môn lập trình\c#\test\test\obj\Debug\netcoreapp3.1\test.csproj.CoreCompileInputs.cache
+D:\Cac Mon Hoc\Môn lập trình\c#\test\test\obj\Debug\netcoreapp3.1\test.dll
+D:\Cac Mon Hoc\Môn lập trình\c#\test\test\obj\Debug\netcoreapp3.1\test.pdb
+D:\Cac Mon Hoc\Môn lập trình\c#\test\test\obj\Debug\netcoreapp3.1\test.genruntimeconfig.cache

@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+    text-decoration: none;
+}
+
+#box {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.child {
+    width: 23%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.child img {
+    width: 100%;
+}
+
+.child h3 {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+.child .content {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.child .content .el {
+   background-color: rgb(231, 231, 231);
+   padding-right: 20px;
+   border-radius: 20px;
+}
+
+.child .content .el p {
+    padding: 5px 0 0 5px;
+    border-radius:  20px 0 0 20px ;
+    color: white;
+    height: 100%;
+    background-color: rgb(255, 68, 0);
+}
+
+.child .content > p {
+    margin-left: 10px;
+    line-height: 28.4px;
+    text-decoration-line: line-through;
+}
+
+
+.child .content2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.child .content2 a {
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 8px 17px 8px 17px;
+}
+
+.child .content2 a:first-child {
+    background-color: rgb(149, 49, 242);
+}
+
+.child .content2 a:last-child {
+    background-color: rgb(172, 171, 170);
+}
+
+
+.child .al {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 235, 235);
+    height: 60px;
+    margin-top: 20px;
+    /* border-top:  0.5px solid; */
+}
+
+.child .al a {
+    color: white;
+    background-color: rgb(149, 49, 242);
+    padding: 10px 16px 10px 16px;
+    border-radius: 5px;
+}
+
+.child .al a > span {
+    margin-left: 3px;
+    padding: 1px 5px 1px 5px;
+    border-radius: 5px;
+    background-color: rgb(72, 52, 52);
+}
+
+
+

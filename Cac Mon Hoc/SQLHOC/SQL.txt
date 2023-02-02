@@ -1,0 +1,72 @@
+-- Tao Data Base
+
+   CREATE DATABASE + (Ten Database)
+   GO
+
+-- Su dung Database
+
+   USE + (Ten Database)
+   GO
+
+-- Tao Bang_Table
+
+   CREATE TABLE + (Ten Table)
+   (
+      VD: MaGV NVARCHAR(10) ,
+          Name NVARCHAR(100)
+   )
+
+-- Sua bang VD: Them cot ngay sinh
+   
+   ALTER TABLE HocSinh ADD NgaySinh Date 
+
+-- Xoa toan bo du lieu cua bang
+  
+   TRUNCATE TABLE HocSinh
+
+-- Go bang khoi Database
+
+   DROP TABLE HocSinh
+   GO
+
+-- Them du lieu bang 
+
+   INSERT dbo.HocSinh
+(
+    MaHS,
+    HoHS,
+    TenHS,
+    GioiTinh,
+    Sdt,
+    DiaChi
+)
+VALUES
+(   N'', -- MaHS - nvarchar(10)
+    N'', -- HoHS - nvarchar(20)
+    N'', -- TenHS - nvarchar(20)
+    N'', -- GioiTinh - nvarchar(10)
+    0,   -- Sdt - int
+    N''  -- DiaChi - nvarchar(50)
+    )
+
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

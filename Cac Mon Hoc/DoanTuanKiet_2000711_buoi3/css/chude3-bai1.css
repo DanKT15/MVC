@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+#table {
+    width: 1000px;
+    margin: 0 auto;
+    border: 0.5px solid black;
+}
+
+#fis {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(82, 118, 9);
+}
+
+#fis > p {
+    height: 50%;
+    width: 88%;
+    color: white;
+    margin-left: 8px;
+}
+
+#fis > button{
+    height: 60%;
+    width: 95px;
+    color: white;
+    background-color: blueviolet;
+    margin-left: 8px;
+    
+}
+
+#sec {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#sec table {
+    width: 98.5%;
+    border-collapse: collapse;
+    margin: 5px 0 5px 0;
+}
+
+#sec th, td {
+    padding: 5px;
+}
+
+#sec tr:nth-child(odd){background-color: rgb(127, 130, 121);}
+
+#sec th {
+  background-color: #000000;
+  color: white;
+}
+
+#sec td:first-child {
+    text-align: center;
+    font-weight: bold;
+}
+
+#thr { 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(127, 130, 121);
+}
+
+#thr ul {
+    display: flex;
+    height: 26px;
+    width: 100px;
+    background-color: white;
+    margin-right: 8px;
+}
+
+#thr ul li {
+    display: inline;
+    width: 25%;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    border-left: 0.5px solid black;
+}
+
+#thr ul li a {
+    display: block;
+    color: blue;
+    line-height: 26px;
+    margin: 0 auto;
+    text-align: center;
+}

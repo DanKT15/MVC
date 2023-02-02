@@ -1,0 +1,117 @@
+.login {
+    background:#1414148f;
+    height: 882px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+}
+.login-main {
+    width: 40%;
+    position: relative;
+    margin: 0 auto;
+    left: auto;
+    top:10%;
+    height: 525px;
+    background-color: #edfaed;
+    border-radius: 20px;
+}
+.login-main::before {
+    content: '';
+    position: absolute;
+    background: #005500da;
+    border-radius: 20px;
+    inset: 0 ;
+    transform: rotate(-10deg);
+    z-index: -1;
+}
+.login-main h1 {
+    margin-top: 0px;
+    font-size: 80px;
+    border-left:3px solid #123102;
+    color:#105626 ;
+}
+.login-form {
+    padding-top: 3%;
+}
+input {
+    height: 48px;
+    width: 70%;
+    border: 1px solid rgb(133, 133, 133);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px ;
+    background-color: #ffffffd3;
+}
+.login-items {
+    display: flex;
+    margin-bottom: 3%;
+    justify-content: center;
+    margin-top: 5%;
+}
+.login-items label i {
+    border: 1px solid rgb(133, 133, 133);
+    background-color: #062a06fc;
+    color: #e0dfdf;
+    border-right: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius:10px ;
+    height: 40px;
+    width: 45px;
+    display: block;
+    font-size: 28px;
+    padding-top: 10px;
+    margin-left: 9px;
+}
+a {
+    display: block;
+    margin-bottom: 2%;
+}
+input#button {
+    display: none;
+}
+.button label {
+    display: block;
+    background-color: #062a06fc;
+    width: 75%;
+    height: 45px;
+    margin: auto;
+    border-radius: 20px;
+    padding-top: 9px;
+    color: #ffffff;
+    
+}
+.button label i {
+    font-size: 30px;
+    color: #f3dfca;
+}
+.button:hover label i {
+    color:#ffffff;
+}
+.button:hover label {
+    background: #808080;
+}
+
+/*sign*/
+.sign-button a {
+    background-color:#005500;
+    border-radius: 55%;
+    width: 92px;
+    height: 90px;
+    position: absolute;
+    left: 700px;
+    top: 40px;
+    display: block;
+    color: #ffffff;
+    font-size: 70px;
+}
+.sign-button:hover a{
+    background-color: #ccffcc;
+}
+.sign-button:hover a i{
+    color: #123102;
+}
+.login{
+    position: fixed;
+    z-index: 2;
+    
+}

@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#menu {
+    background-color: #228B22;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#menu > ul {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+#menu ul > li {
+    display: inline;
+    position: relative;
+    list-style: none;
+    height: 40px;
+}
+
+#menu ul li > a {
+   display: block;
+   line-height: 40px;
+   padding: 0 12px;
+   text-decoration: none;
+   color: aliceblue;
+}
+
+#menu > ul > li > a:hover {
+    background-color: #228B22;
+}
+
+#menu .child {
+  display: none;
+  position: absolute;
+  min-width: 210px;
+  background-color: #3628ff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+#menu .child a {
+   display: block;
+   color: aliceblue;
+   padding: 0 8px;
+   line-height: 40px;
+   text-decoration: none;
+}
+
+#menu .child a:hover {
+    background-color: #228B22;
+}
+
+#menu .down:hover .child {
+    display: block;
+}
+
+#menu .childtb {
+    display: none;
+    position: absolute;
+    right: -700%;
+    min-width: 650px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#menu .childtb td {
+    background-color: #3628ff;
+}
+
+#menu .childtb, th, td {
+    border: 0.5px solid rgb(255, 0, 0);
+    border-collapse: collapse;
+}
+  
+#menu .childtb tr > td > a {
+    display: block;
+    width: 270px;
+    padding-right: 100px;
+    padding-left: 10px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: left;
+    color: aliceblue;
+}
+
+#menu .childtb tr > th > a  {
+    display: block; 
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+}
+  
+#menu .childtb tr > td > a:hover {
+    background-color: #228B22;
+}
+  
+#menu .downtb:hover .childtb {
+    display: block;
+}
